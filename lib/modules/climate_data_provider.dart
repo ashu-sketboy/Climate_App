@@ -6,7 +6,7 @@ import './location_provider.dart';
 
 class ClimateDataProvider {
   Map<String, dynamic> _climateData = {};
-  final String _apiKey = '52fec354e0f04a5bafb121754210405';
+  final String _apiKey = '...';
   final String _authority = 'http://api.weatherapi.com/v1/forecast.json?';
   final cityName;
 
